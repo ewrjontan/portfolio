@@ -1,0 +1,108 @@
+html, body {
+    height:100%;
+    font-family: arial;
+}
+
+body{
+    /*background-image: linear-gradient(to right, #cccccc, #21466c);*/
+    background-color: #aaaaaa;
+}
+
+.navbar{
+    position: fixed;
+    /*font-size: 1.5em;*/
+}
+
+.navbar-brand{
+    font-family: "Monoton";
+}
+
+h1{
+    font-family: "Monoton";
+}
+
+span{
+    color: #ffc107;
+}
+
+/* Header Parallax Element Style*/ 
+.paral{
+    min-height: 100%;
+    /*margin-top: -56px;*/
+}
+
+    /* Paragraph for Parallax Section */ 
+.paral p {
+    font-size: 24px;
+    color:#f5f5f5;
+    text-align: center;
+    line-height: 60px;
+    }
+    
+    /* Heading for Parallax Section */ 
+.paral h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    line-height: 100px;
+    font-family: "Monoton";
+}
+
+.paral h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 100px;
+    font-family: "Monoton";
+}
+
+
+    /* Image for Parallax Section */ 
+.paralsecMobile {
+    background-image: url("/images/indexPara1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 40% 50%;
+}
+
+.paralsecDesktop {
+    background-image: url("/images/indexPara1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#homeSecondContainer{
+    /*background-image: linear-gradient(to right, #cccccc, #21466c);*/
+    background-color: #21466c;
+    margin-top: -32px;
+}
+
+#h1Home{
+    color: rgba(255, 255, 255, 1);
+}
+#homeAboutCard{
+    margin-top: -50px;
+    border-radius: 20px;;
+}
+
+#indexProjectsHeader{
+    background-color: #21466c;
+    font-size: 500px;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+
+footer{
+    background-color: #21466c;
+
+}
+
+i{
+    color: white;
+}
